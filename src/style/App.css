@@ -5,14 +5,26 @@ body {
     background-color: #F9F7F7;
 }
 
-header {
+header, footer {
+    color: #F9F7F7;
     background-color: #3F72AF;
 }
 
-header > h1 {
-    text-align: center;
-    color: #F9F7F7;
-    font-family: Roboto;
+header {
     padding-top: .5em;
     padding-bottom: .5em;
+}
+
+footer {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+header > h1, footer > p {
+    text-align: center;
+}
+/*box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;*/
+a {
+    color: #F9F7F7;
+    font-weight: bold;
 }
